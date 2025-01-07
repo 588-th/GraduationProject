@@ -1,0 +1,157 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Desktop\\SpeechRecognition\\Frontend\\Frontend.csproj": {}
+  },
+  "projects": {
+    "D:\\Desktop\\SpeechRecognition\\Backend\\Backend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desktop\\SpeechRecognition\\Backend\\Backend.csproj",
+        "projectName": "Backend",
+        "projectPath": "D:\\Desktop\\SpeechRecognition\\Backend\\Backend.csproj",
+        "packagesPath": "C:\\Users\\588th\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\SpeechRecognition\\Backend\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\588th\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NAudio": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "SciSharp.TensorFlow.Redist": {
+              "target": "Package",
+              "version": "[2.16.0, )"
+            },
+            "TensorFlow.Keras": {
+              "target": "Package",
+              "version": "[0.15.0, )"
+            },
+            "TensorFlow.NET": {
+              "target": "Package",
+              "version": "[0.150.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desktop\\SpeechRecognition\\Frontend\\Frontend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desktop\\SpeechRecognition\\Frontend\\Frontend.csproj",
+        "projectName": "Frontend",
+        "projectPath": "D:\\Desktop\\SpeechRecognition\\Frontend\\Frontend.csproj",
+        "packagesPath": "C:\\Users\\588th\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\SpeechRecognition\\Frontend\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\588th\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "D:\\Desktop\\SpeechRecognition\\Backend\\Backend.csproj": {
+                "projectPath": "D:\\Desktop\\SpeechRecognition\\Backend\\Backend.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "LiveChartsCore.SkiaSharpView.WPF": {
+              "target": "Package",
+              "version": "[2.0.0-rc2, )"
+            },
+            "NAudio": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

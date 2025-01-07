@@ -1,0 +1,32 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush Color="#dedede" x:Key="BackgroundPrimary"/>
+    <SolidColorBrush Color="#ebebeb" x:Key="BackgroundSecondary"/>
+    <SolidColorBrush Color="#dbdbdb" x:Key="BackgroundTertiary"/>
+    <SolidColorBrush Color="#e6e6e6" x:Key="BackgroundQuaternary"/>
+
+    <SolidColorBrush Color="#000000" x:Key="TextPrimary"/>
+    <SolidColorBrush Color="#262626" x:Key="TextSecondary"/>
+
+    <SolidColorBrush Color="#ebebeb" x:Key="ButtonBackgroundFirstType"/>
+    <SolidColorBrush Color="#dbdbdb" x:Key="ButtonBackgroundSecondType"/>
+
+    <SolidColorBrush Color="#d6d6d6" x:Key="ButtonOverFirstType"/>
+    <SolidColorBrush Color="#d1d1d1" x:Key="ButtonOverSecondType"/>
+
+    <SolidColorBrush Color="#b4b4b1" x:Key="TextBlockBackground"/>
+
+    <SolidColorBrush Color="#b4b4b1" x:Key="BorderPrimary"/>
+    <SolidColorBrush Color="#b4b4b1" x:Key="BorderSecondary"/>
+
+    <SolidColorBrush Color="#3EC965" x:Key="Green"/>
+    <SolidColorBrush Color="#2497f3" x:Key="Blue"/>
+
+    <SolidColorBrush Color="#ef0f41" x:Key="RedPrimary"/>
+    <SolidColorBrush Color="#bf0c34" x:Key="RedSecondary"/>
+
+    <BitmapImage x:Key="Info" UriSource="/Images/ic_info_dark.png"/>
+    <BitmapImage x:Key="Theme" UriSource="/Images/ic_theme_dark.png"/>
+
+</ResourceDictionary>

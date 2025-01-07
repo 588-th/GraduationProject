@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>D:\Desktop\Релиз\SpeechRecognition\Frontend\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Items\ItemModel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Guide.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\ModelTrain.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Message.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\ModelDictionaries.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\ModelList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\ModelSettings.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Transcription.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Items\ItemModel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Guide.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\ModelTrain.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Realtime.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Dark.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Light.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Message.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\ModelDictionaries.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\ModelList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\ModelSettings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Transcription.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

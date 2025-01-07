@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Работа с моделями">
+    <Position X="10.606" Y="2.794" Height="0.291" Width="1.508" />
+  </Comment>
+  <Comment CommentText="Работа с фонемами">
+    <Position X="14" Y="7.647" Height="0.291" Width="1.508" />
+  </Comment>
+  <Comment CommentText="Работа с аудио">
+    <Position X="17.5" Y="2.397" Height="0.291" Width="1.508" />
+  </Comment>
+  <Class Name="Logic.Audio.AudioBuilder" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIQBAAAAAAAAAAAAAACAAAAAAAAAAAgACA=</HashCode>
+      <FileName>Audio\AudioBuilder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_audioInformation" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="Logic.Audio.AudioInformation">
+    <Position X="16.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAgAAAAIAAAAAAAQAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Audio\AudioInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logic.Audio.AudioRepository">
+    <Position X="18.5" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAEgAAAgAAAAAEAAAAAAAAAAAABAAAAAgAAQAAAQ=</HashCode>
+      <FileName>Audio\AudioRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logic.Algorithms.StateProcessing">
+    <Position X="15" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAKAAAAAAAQAoAAIAAAAACAAAhIAAAAAAAA=</HashCode>
+      <FileName>Algorithms\StateProcessing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logic.Algorithms.TranscriptionAlignment">
+    <Position X="12.75" Y="10" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAEAAAAAAAAAAAAIAgAAAAAQAAAAAAkIAAAAAAAA=</HashCode>
+      <FileName>Algorithms\TranscriptionAlignment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logic.Algorithms.WordbookMatcher">
+    <Position X="12.75" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAABACAAAAAAAAQA=</HashCode>
+      <FileName>Algorithms\WordbookMatcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logic.Model.DeepNeuralNetworks">
+    <Position X="10" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAAAAAAAAAAoAIAAAAAAAAoAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Model\DeepNeuralNetworks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logic.Model.MelFrequencyCepstralCoefficients">
+    <Position X="7.5" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAQAAAEgBKJAAIAAAIAEAEAAIIAAABAQg=</HashCode>
+      <FileName>Model\MelFrequencyCepstralCoefficients.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logic.Model.ModelControlSystem">
+    <Position X="10" Y="3.5" Width="2.75" />
+    <AssociationLine Name="Model" Type="Logic.Model.SRModel" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10" Y="4.062" />
+        <Point X="9.877" Y="4.062" />
+        <Point X="9.877" Y="3.081" />
+        <Point X="9.75" Y="3.081" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.206" Y="-0.227" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABAgAAAAAAAAAAFIAAAEAAAAAIABBAAAAAgEAAAAAAA=</HashCode>
+      <FileName>Model\ModelControlSystem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Model" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Logic.Model.ModelFileSystem">
+    <Position X="13" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAIAAAAAIAAAAAAAQAAAAEA=</HashCode>
+      <FileName>Model\ModelFileSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logic.Model.SRModel">
+    <Position X="7.5" Y="2.75" Width="2.25" />
+    <AssociationLine Name="SoundsCharacteristics" Type="Logic.Model.MelFrequencyCepstralCoefficients" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="3.357" />
+        <Point X="7.333" Y="3.357" />
+        <Point X="7.333" Y="7.125" />
+        <Point X="7.5" Y="7.125" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.29" Y="1.821" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABACAAQAAAAAACABAAABAAQAAAAAAgEgAABBAAAUAAA=</HashCode>
+      <FileName>Model\SRModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SoundsCharacteristics" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="Logic.Audio.IBuilderAudioInformation">
+    <Position X="18.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Audio\IBuilderAudioInformation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
