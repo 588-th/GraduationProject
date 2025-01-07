@@ -3,6 +3,8 @@
 ## Overview
 This project is designed to create, configure, and train speech recognition models. It enables transcription of audio into text and builds phoneme recognition matrices for audio frames.
 
+![изображение](https://github.com/user-attachments/assets/8644a279-850e-4725-99be-561cc6f8e661)
+
 ### Key Features:
 - **Audio Transcription**: Converts speech to text with high accuracy.  
 - **Phoneme Recognition**: Constructs sequences of phonemes from audio data.  
@@ -35,3 +37,6 @@ These can be installed using NuGet
 
 ### Refer to the Images:
 Two PNG files, `Libraries.png` and `Libraries 2.png`, are located in the root folder. They provide visual hints on where and how to install the required libraries.
+
+<img src="./Libraries.png" alt="Hint for library installation" width="400">
+<img src="./Libraries2.png" alt="Additional diagram for library setup" width="400">
